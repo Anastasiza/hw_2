@@ -1,5 +1,7 @@
 from math import pi
 
+from src.Figure import Figure
+
 
 class Circle(Figure):
     def __init__(self, radius):
