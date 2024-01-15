@@ -6,7 +6,7 @@ from src.Figure import Figure
 class Circle(Figure):
     def __init__(self, radius):
         if radius <= 0:
-            ValueError("Сторона треугольника должна быть больше 0")
+            ValueError("Сторона треугольника должна быть больше 0 ")
         super().__init__(name="Circle")
         self.__radius = radius
 
